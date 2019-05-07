@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div id="wrap">
+</div>
+
+<!--    <div>-->
+<!--      <p id="out"></p>-->
+<!--    </div>-->
+
+  
+    <div style="text-align: center;margin-top: 60px;">
+      <div class="title">原生select</div>
+      <select>
+        <option value="1" type="构建工具">Babel</option>
+        <option value="2" type="构建工具">Webpack</option>
+        <option value="3" type="构建工具">Rollup</option>
+        <option value="4" type="前端框架">Vue</option>
+        <option value="5" type="前端框架">Angular</option>
+        <option value="6" type="前端框架">React</option>
+        <option value="7" type="前端框架">Nerv</option>
+      </select>
+    </div>
+  </div>
+
+<script src="./assets/js/data.js"></script>
+<script src="./assets/js/index.js"></script>
+<script>
+    const downList = new $DownList({
+        data,
+        parasitifer: '#wrap'
+    });
+</script>
+
+
+
+</body>
+</html>

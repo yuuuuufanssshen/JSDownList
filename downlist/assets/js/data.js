@@ -1,0 +1,30 @@
+const data = [
+    {
+        type:'构建工具',
+        option:'Babel'
+    },
+    {
+        type:'构建工具',
+        option:'Webpack'
+    },
+    {
+        type:'构建工具',
+        option:'Rollup'
+    },
+    {
+        type:'前端框架',
+        option:'Vue'
+    },
+    {
+        type:'前端框架',
+        option:'Angular'
+    },
+    {
+        type:'前端框架',
+        option:'React'
+    },
+    {
+        type:'前端框架',
+        option:'Nerv'
+    }
+]
